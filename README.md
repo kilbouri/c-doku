@@ -25,10 +25,10 @@ Feel free to create a pull request to add your own action strings. You can gener
 
 An "action string" is a sequence of ASCII characters which the program will execute as if it were input by the user. An action string is **not case sensitive**. The following characters are valid in such a string:
 
-    - **Any digit (1-9)**: places the digit in the current cell
-    - **WASD**: Move up/left/down/right respectively
-    - **HJKL**: Move left/up/down/right respectively
-    - **X**: Clear cell
-    - **Q**: Quit
+  - **Any digit (1-9)**: places the digit in the current cell
+  - **WASD**: Move up/left/down/right respectively
+  - **HJKL**: Move left/up/down/right respectively
+  - **X**: Clear cell
+  - **Q**: Quit
 
 You may generate an action string by starting an empty game with the `--record` argument, or by hand-writing them using the above encoding. In the former, a file named `recording.txt` will be output in your working directory containing the string.
