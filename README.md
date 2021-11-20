@@ -5,7 +5,7 @@ Sudoku, in C. Its a lame pun, I know. Anyway, building and executing is very sim
 ### Build
 
 1. `make NAME=<name of executable>`
-2. `./<name of executable>
+2. `./<name of executable>`
 3. (optional) `make clean` to clean up leftover build files
 
 ### Quick Start
