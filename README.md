@@ -32,3 +32,9 @@ An "action string" is a sequence of ASCII characters which the program will exec
   - **Q**: Quit
 
 You may generate an action string by starting an empty game with the `--record` argument, or by hand-writing them using the above encoding. In the former, a file named `recording.txt` will be output in your working directory containing the string.
+
+### Example Executions:
+
+  - `./cdoku.exe --help` (outputs help menu)
+  - `./cdoku.exe --record` (creates a blank game, and writes all actions to `recording.txt`)
+  - `./cdoku.exe dddd3dd2daxd2d1s3s8a7aw9` (creates a partially filled board)
