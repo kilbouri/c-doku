@@ -51,7 +51,7 @@ int main(int argc, char const* argv[]) {
         puts("Written by: Isaac Kilbourne\n");
 
         puts("Controls:");
-        puts(" - WASD/HJKL to move your between cells");
+        puts(" - WASD/HJKL to move between cells");
         puts(" - 1-9 to enter a digit");
         puts(" - Backspace/X to clear a space\n");
 
